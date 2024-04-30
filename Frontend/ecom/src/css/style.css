@@ -1,0 +1,327 @@
+.homeContentWrapper{
+       /* Dégradé de couleur en arrière-plan */
+       background: linear-gradient(to bottom, #F8BBD0, #FFFFFF);
+       /* Utilisation du préfixe -webkit- pour une compatibilité maximale avec les navigateurs */
+       background: -webkit-linear-gradient(top, #F8BBD0, #FFFFFF);
+       /* Ajustement pour couvrir l'ensemble de la page */
+       height: 100vh;
+       margin: 0;
+       /* Pour centrer le texte si nécessaire */
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       /* Texte noir pour une meilleure lisibilité */
+       color: rgb(208, 142, 181);
+    }
+    .overlayBox{
+    padding: 200px 0px;
+    box-sizing: border-box;
+    /* background: rgba(0, 0, 0, 0.5); */
+    height: 100%;
+    }
+    
+    .container{
+    width: 1200px;
+    margin: 0px auto;
+    }
+    
+    
+    .welcomeText{
+    color:#FFF;
+    font-size: 75px;
+    font-family: raleway-bold;
+    line-height: 90px;
+    }
+    /* Styles pour la barre de navigation transparente */
+.navbar {
+    background-color: transparent;
+    -webkit-backdrop-filter: blur(10px); /* Préfixe pour Safari */
+    backdrop-filter: blur(10px); /* Ajout d'un flou pour un effet de transparence */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: rgb(239, 157, 204); /* Couleur du texte */
+}
+.login-button {
+    background-color: pink;
+    border-radius: 50px; /* forme ovale */
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .nav-item {
+    margin-right: 10px; /* Espace entre les éléments */
+  }
+  
+
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px; /* Ajustez selon votre besoin */
+
+}
+
+.bannerImage {
+    width: 50%; /* Ajustez selon votre besoin */
+    height: auto; /* Pour garder les proportions de l'image */
+    margin-bottom: 18px;
+}
+
+.bannerText {
+    width: 45%; /* Ajustez selon votre besoin */
+margin-right: 100px;
+    opacity: 0; /* Commencez par rendre le texte invisible */
+    animation: fadeIn 1s ease forwards; /* Utilisez l'animation pour faire apparaître le texte */
+}
+
+.bannerText h1 {
+    font-size: 50px; /* Ajustez selon votre besoin */
+    margin-bottom: 70px; /* Ajustez selon votre besoin */
+    right: 1000px;
+    font-family: 'Crete Round', serif;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: #a68dad;
+
+}
+.setBannerImage {
+margin-left: 180px;
+}
+
+.bannerText p {
+    font-size: 16px; /* Ajustez selon votre besoin */
+    line-height: 1.5; /* Ajustez selon votre besoin */
+    font-family: 'Zen Antique Soft', serif;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 100px;
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px) translateX(20px); /* Déplacez le texte vers le haut et vers la gauche */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) translateX(0); /* Réinitialisez la position */
+    }
+  }
+  
+  
+
+
+  .about{
+    min-height: 90vh;
+    background-color: white;
+    color:#F8BBD0;
+   
+  }
+  .mb-3{
+    font-size: 50px;
+    color: #fadfdf;
+    font-family: 'Crete Round', serif;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+  }
+  .text1 {
+    text-align: center;
+    margin-top: 200px;
+    color: #F8BBD0;
+  }
+
+  
+  .about_page_head {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(236, 177, 177, 0.96); /* Noir semi-transparent */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    z-index: -1;
+  }
+  
+  .mt-123 {
+    margin-top: 500px;
+  }
+
+
+  .col-md-6.px-5{
+    font-style: italic;
+    font-family: 'Crete Round', serif;
+  }
+  .col-md-6.content.text1{
+    font-style: italic;
+    font-family: 'Crete Round', serif;
+  }
+  .text-center.py-5 {
+    font-size: 50px;
+ 
+    font-family: 'Crete Round', serif;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+  }
+  @keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.py-5.team4{
+    top: 100px;
+  }
+.team{
+    min-height: 90vh;
+    background-color: #fadfdf;
+  }
+  
+  @import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
+  .team4 {
+    font-family: "Montserrat", sans-serif;
+      color: #8d97ad;
+    font-weight: 300;
+  }
+  
+  .team4 h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, .team4 h6 {
+    color: #fa91a1;
+  }
+  
+  .team4 .font-weight-medium {
+      font-weight: 500;
+  }
+  
+  .team4 h5 {
+      line-height: 22px;
+      font-size: 18px;
+  }
+  
+  .team4 .subtitle {
+      color: #8d97ad;
+      line-height: 24px;
+          font-size: 13px;
+  }
+  
+  .team4 ul li a {
+    color: #a68dad;
+    padding-right: 15px;
+    -webkit-transition: 0.1s ease-in;
+    -o-transition: 0.1s ease-in;
+    transition: 0.1s ease-in;
+  }
+  
+  .team4 ul li a:hover {
+  
+    -webkit-transform: translate3d(0px, -5px, 0px);
+    transform: translate3d(0px, -5px, 0px);
+      color: #316ce8;
+  }
+  .team4 .img-fluid {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 60%;
+    transition: transform 0.4s ease;
+}
+
+.team4 .img-fluid:hover {
+    transform: scale(1.4);
+}
+
+  /* style.css */
+
+/* Footer */
+footer {
+    background-color: #a68dad;; /* Couleur de fond du footer */
+    color: #fff; /* Couleur du texte du footer */
+    padding: 50px 0; /* Espace intérieur du footer */
+  
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+
+.left-col,
+.right-col {
+    flex-basis: 45%;
+}
+
+.left-col img {
+    max-width: 100%; /* Assure que le logo ne dépasse pas la largeur de son conteneur */
+}
+
+.social-media a {
+    margin-right: 10px; /* Espacement entre les icônes de médias sociaux */
+}
+
+.right-col h1 {
+    font-size: 24px; /* Taille de la police du titre */
+}
+
+.border {
+    border-top: 1px solid #fff; /* Bordure supérieure pour séparer le titre du formulaire */
+    margin-bottom: 20px; /* Espacement entre le titre et le formulaire */
+}
+
+.newsletter-form {
+    display: flex;
+    align-items: center;
+}
+
+.newsletter-form input[type="email"] {
+    width: 200px; /* Largeur du champ email */
+    padding: 10px; /* Espace intérieur du champ email */
+    border: 1px solid #fff; /* Bordure du champ email */
+    border-radius: 5px; /* Bordure arrondie */
+    margin-right: 10px; /* Espacement entre le champ email et le bouton */
+}
+
+.newsletter-form input[type="Submit"] {
+    background: linear-gradient(to bottom, #F8BBD0, #FFFFFF); /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    border: none; /* Supprime la bordure du bouton */
+    padding: 10px 20px; /* Espace intérieur du bouton */
+    border-radius: 5px; /* Bordure arrondie */
+    cursor: pointer; /* Curseur pointer pour indiquer l'interactivité */
+}
+
+.newsletter-form input[type="Submit"]:hover {
+     background: linear-gradient(to bottom, #F8BBD0, #FFFFFF); /* Couleur de fond du bouton au survol */
+}
